@@ -8,26 +8,27 @@
     "dist"
   ],
   "compilerOptions": {
-    "baseUrl": "./src",
+    "strictNullChecks": true,
+    "baseUrl": "./",
     "paths": {
-      "@layouts/*": [
-        "layouts/*"
-      ],
       "@components/*": [
-        "components/*"
+        "src/components/*"
       ],
-      "@assests/*": [
-        "assests/*"
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@layouts/*": [
+        "src/layouts/*"
+      ],
+      "@content/*": [
+        "src/content/*"
       ],
       "@lib/*": [
-        "lib/*"
+        "src/lib/*"
       ],
-      "@scripts/*": [
-        "scripts/*"
+      "@styles/*": [
+        "src/styles/*"
       ],
-      "@styles": [
-        "styles/*"
-      ]
     }
   }
 }
