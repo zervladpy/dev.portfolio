@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('/fonts/nunito/Nunito-ExtraBold.woff2') format('woff2'),
+        url('/fonts/nunito/Nunito-ExtraBold.woff') format('woff'),
+        url('/fonts/nunito/Nunito-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Supreme';
+    src: url('/fonts/supreme/Supreme-Regular.woff2') format('woff2'),
+        url('/fonts/supreme/Supreme-Regular.woff') format('woff'),
+        url('/fonts/supreme/Supreme-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
